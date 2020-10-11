@@ -1,0 +1,43 @@
+.patientCard{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    box-shadow: 1px 2px 5px 2px grey;
+    background: white;
+    margin-bottom: 7px;
+    border-radius: 7px;
+}
+.patientNameCard{
+    margin: 5px;
+    flex:2
+}
+.medicalStatus{
+    margin: 5px;
+    flex:6
+}
+.patientName{
+    color: black;
+}
+.mobile{
+    color: #0078c8;
+    font-size: 14px;
+}
+.dob{
+    color: #017f5b;
+}
+.gender{
+    color: #0063ba;
+}
+.nextDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextDiv:hover{
+    cursor: pointer;
+}
+.searchPt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

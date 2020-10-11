@@ -1,0 +1,47 @@
+.searchBar{
+display: inline-block;
+margin: 5px;
+}
+
+.options-class{
+    position: absolute;
+    background: white;
+    min-width: 450px;
+    z-index: 9999;
+}
+
+.closeBtn{
+    text-align: center;
+}
+.sub-optionClass{
+    cursor: pointer;
+    background: white;
+    padding: 6px;
+    margin: 3px; 
+    border-radius: 5px;
+}
+.sub-optionClass:hover{
+    background: rgb(0, 89, 204);
+    color: white;
+    border-radius: 5; border-width: 1; border-color: '#333'
+}
+
+.searchBar input{
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 450px;
+    outline: none;
+    color: #2196F3;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+}
+.searchIconClass{
+    margin-left: -25px;
+    margin-bottom: -5px;
+    color: #2196F3;
+}
+.searchBar,input::placeholder{
+    font-size: 15px;
+    color: #323e47;
+}

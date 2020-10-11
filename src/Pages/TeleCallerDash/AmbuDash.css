@@ -1,0 +1,28 @@
+.blockPanel{
+    padding: 10px; 
+    background: #154c66;
+    margin-bottom: 10px ;
+}
+
+.blocksContainer{
+    flex-direction: row;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly
+}
+.panelTitle{
+    font-size: 20px; color: white 
+}
+.dashCard{
+    width: auto; min-width: 200px; height: 100px ;display:flex;flex-direction:column;justify-content:center
+}
+.dashCard:hover{
+    cursor: pointer;
+    background-color: #4b616b;
+    color:#ffffff;
+}
+.searchPt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

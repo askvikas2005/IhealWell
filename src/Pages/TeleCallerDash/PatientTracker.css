@@ -1,0 +1,30 @@
+.card{
+    width: 100%;
+    padding: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    box-shadow: 1px 1px 1px 1px gray;
+    background: white;
+    
+}
+.card1{
+    width: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    box-shadow: 1px 1px 1px 1px gray;
+    background: white;
+    
+}
+.actionButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: aliceblue;
+    padding: 3px;
+    position: fixed;
+    z-index: 222;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,25 @@
+.inputStyles{
+    margin: 10px;
+}
+.autocompleteClass{
+    display: inline-block;
+}
+
+.autoOPtions{
+    position: absolute;
+    background: white;
+    min-width: 190px;
+    z-index: 9999;
+    box-shadow:0px 6px 9px 2px grey;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.optionClass{
+    cursor: pointer;
+    background: white;
+}
+.optionClass:hover{
+    background: rgb(0, 89, 204);
+    color: white;
+}
